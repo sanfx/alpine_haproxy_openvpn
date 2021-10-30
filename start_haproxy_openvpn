@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# start openvpn
+openvpn --config /etc/openvpn/openvpn.conf --log /var/log/openvpn.log &
+
+# start haproxy
+haproxy -f /etc/haproxy/haproxy.cfg
+

@@ -1,0 +1,5 @@
+openvpn.conf
+haproxy.cfg
+*.pyc
+*.swp
+*.sql
